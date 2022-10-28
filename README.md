@@ -1,5 +1,5 @@
 # Pokemon-vanilla
-Buscador pokemon hecho con javascript
+Buscador pokemon.
 App sencilla, hecha con vanilla js en la cual realizamos una llamada a una api de pokemon para mostrar un listado de ellos.
 Proyecto realizado por mi cuenta con la intención de seguir practicando mientras realizaba el bootcamp de hack a boss.
 COSAS A TENER EN CUENTA:
