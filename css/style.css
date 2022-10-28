@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --color-primario: #f3c70b;
+    --color-secundario: #4e77b0;
+}
+body {
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+    height: 100vh;
+    background-color: #8c9fbf;
+}
+header {display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 2rem;
+}
+.pokemon{
+    background-image: url(/imagenes/Pokemon.png);
+    width: 250px;
+    height: 150px;
+    border: none;
+    background-color: inherit;
+}
+.pokedex{
+    background-image: url(/imagenes/pokedex.png);
+    width: 250px;
+    height: 150px;
+    border: none;
+    background-color: inherit;
+    overflow: hidden;
+}
+main {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem; 
+}
+form {display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 400px;
+    max-width: 300px;
+    text-align: center;
+    gap: 1rem;
+}
+button {
+    border: 3px solid var(--color-primario);
+    background-color:var(--color-secundario);
+    color: #f3c70b;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+.buscador {
+    border: 3px solid var(--color-primario);
+}
+article {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    border: 5px solid var(--color-primario);
+    border-radius: 20px;
+    width: 210px;
+    height: 310px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    background-color:var(--color-secundario); 
+}
+article h2{
+    font-size: 15px;
+}
+article p {
+    font-size: 13px;
+}
+div{
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 1rem;
+    border: 3px solid var(--color-primario);
+    border-radius: 20px;
+    width: 160px;
+    align-items: center;
+    background-color: white;
+
+}
+img {
+    border: 3px solid var(--color-primario);
+    border-radius: 10px;
+    background-color: white;
+}
